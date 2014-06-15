@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41BC1D7E182016E9000EE04D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D7D182016E9000EE04D /* libz.dylib */; };
+		41BC1D80182016F1000EE04D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D7F182016F1000EE04D /* CoreMotion.framework */; };
+		41BC1D82182016F7000EE04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D81182016F7000EE04D /* Foundation.framework */; };
+		41BC1D84182016FF000EE04D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D83182016FF000EE04D /* OpenAL.framework */; };
+		41BC1D8618201708000EE04D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D8518201708000EE04D /* OpenGLES.framework */; };
+		41BC1D8818201713000EE04D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D8718201713000EE04D /* QuartzCore.framework */; };
+		41BC1D8A18201718000EE04D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D8918201718000EE04D /* UIKit.framework */; };
 		420D545815FE430D00AD0B91 /* Audio3DSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 420D543A15FE430D00AD0B91 /* Audio3DSample.cpp */; };
 		420D545915FE430D00AD0B91 /* Audio3DSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 420D543A15FE430D00AD0B91 /* Audio3DSample.cpp */; };
 		420D545A15FE430D00AD0B91 /* CreateSceneSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 420D543C15FE430D00AD0B91 /* CreateSceneSample.cpp */; };
@@ -65,13 +72,6 @@
 		42CACBE216ADA468000D911A /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB9B16AD90080000F342 /* libvorbis.a */; };
 		42CACBE316ADA46C000D911A /* libvorbisenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB9C16AD90080000F342 /* libvorbisenc.a */; };
 		42CACBE416ADA46F000D911A /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB9D16AD90080000F342 /* libvorbisfile.a */; };
-		42CACBE516ADA473000D911A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB2316AD8C1C0000F342 /* libz.dylib */; };
-		42DFAABC16AD89670000F342 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAABB16AD89670000F342 /* CoreMotion.framework */; };
-		42DFAAD416AD8A8C0000F342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAAD316AD8A8C0000F342 /* Foundation.framework */; };
-		42DFAB1F16AD8BBC0000F342 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB1B16AD8BBC0000F342 /* OpenAL.framework */; };
-		42DFAB2016AD8BBC0000F342 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB1C16AD8BBC0000F342 /* OpenGLES.framework */; };
-		42DFAB2116AD8BBC0000F342 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB1D16AD8BBC0000F342 /* QuartzCore.framework */; };
-		42DFAB2216AD8BBC0000F342 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFAB1E16AD8BBC0000F342 /* UIKit.framework */; };
 		42DFABD116AD961C0000F342 /* libgameplay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DFABD016AD961C0000F342 /* libgameplay.a */; };
 		42DFABD416AD96F10000F342 /* TerrainSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DFABD216AD96F10000F342 /* TerrainSample.cpp */; };
 		42DFABD516AD96F10000F342 /* TerrainSample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DFABD216AD96F10000F342 /* TerrainSample.cpp */; };
@@ -90,6 +90,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41BC1D7D182016E9000EE04D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		41BC1D7F182016F1000EE04D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D81182016F7000EE04D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D83182016FF000EE04D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D8518201708000EE04D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D8718201713000EE04D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D8918201718000EE04D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		420D543A15FE430D00AD0B91 /* Audio3DSample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Audio3DSample.cpp; sourceTree = "<group>"; };
 		420D543B15FE430D00AD0B91 /* Audio3DSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio3DSample.h; sourceTree = "<group>"; };
 		420D543C15FE430D00AD0B91 /* CreateSceneSample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreateSceneSample.cpp; sourceTree = "<group>"; };
@@ -199,6 +206,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BC1D8A18201718000EE04D /* UIKit.framework in Frameworks */,
+				41BC1D8818201713000EE04D /* QuartzCore.framework in Frameworks */,
+				41BC1D8618201708000EE04D /* OpenGLES.framework in Frameworks */,
+				41BC1D84182016FF000EE04D /* OpenAL.framework in Frameworks */,
+				41BC1D82182016F7000EE04D /* Foundation.framework in Frameworks */,
+				41BC1D80182016F1000EE04D /* CoreMotion.framework in Frameworks */,
+				41BC1D7E182016E9000EE04D /* libz.dylib in Frameworks */,
 				42CACBDD16ADA456000D911A /* libgameplay.a in Frameworks */,
 				42CACBDE16ADA45C000D911A /* libbullet.a in Frameworks */,
 				42CACBDF16ADA45F000D911A /* liblua.a in Frameworks */,
@@ -207,13 +221,6 @@
 				42CACBE216ADA468000D911A /* libvorbis.a in Frameworks */,
 				42CACBE316ADA46C000D911A /* libvorbisenc.a in Frameworks */,
 				42CACBE416ADA46F000D911A /* libvorbisfile.a in Frameworks */,
-				42CACBE516ADA473000D911A /* libz.dylib in Frameworks */,
-				42DFAABC16AD89670000F342 /* CoreMotion.framework in Frameworks */,
-				42DFAAD416AD8A8C0000F342 /* Foundation.framework in Frameworks */,
-				42DFAB1F16AD8BBC0000F342 /* OpenAL.framework in Frameworks */,
-				42DFAB2016AD8BBC0000F342 /* OpenGLES.framework in Frameworks */,
-				42DFAB2116AD8BBC0000F342 /* QuartzCore.framework in Frameworks */,
-				42DFAB2216AD8BBC0000F342 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +302,13 @@
 		42C932BF1491A0DB0098216A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41BC1D8918201718000EE04D /* UIKit.framework */,
+				41BC1D8718201713000EE04D /* QuartzCore.framework */,
+				41BC1D8518201708000EE04D /* OpenGLES.framework */,
+				41BC1D83182016FF000EE04D /* OpenAL.framework */,
+				41BC1D81182016F7000EE04D /* Foundation.framework */,
+				41BC1D7F182016F1000EE04D /* CoreMotion.framework */,
+				41BC1D7D182016E9000EE04D /* libz.dylib */,
 				5B61613A14CCC3590073B857 /* MacOSX */,
 				5B61613914CCC3560073B857 /* iOS */,
 			);
@@ -692,7 +706,7 @@
 					"../../external-deps/oggvorbis/include",
 				);
 				INFOPLIST_FILE = "sample-browser-ios.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"../../external-deps/bullet/lib/ios/$(CURRENT_ARCH)\"",
@@ -726,7 +740,7 @@
 					"../../external-deps/lua/include",
 				);
 				INFOPLIST_FILE = "sample-browser-ios.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"../../external-deps/bullet/lib/ios/$(CURRENT_ARCH)\"",

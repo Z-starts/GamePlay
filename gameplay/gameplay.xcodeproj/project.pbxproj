@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41BC1D731820169F000EE04D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D721820169F000EE04D /* CoreMotion.framework */; };
+		41BC1D75182016AA000EE04D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D74182016AA000EE04D /* Foundation.framework */; };
+		41BC1D76182016B1000EE04D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D7018201661000EE04D /* OpenAL.framework */; };
+		41BC1D78182016B9000EE04D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D77182016B9000EE04D /* OpenGLES.framework */; };
+		41BC1D7A182016C0000EE04D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D79182016C0000EE04D /* QuartzCore.framework */; };
+		41BC1D7C182016C7000EE04D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BC1D7B182016C7000EE04D /* UIKit.framework */; };
 		4201819014A41B18008C3F56 /* MeshBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4201818D14A41B18008C3F56 /* MeshBatch.cpp */; };
 		4201819114A41B18008C3F56 /* MeshBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4201818E14A41B18008C3F56 /* MeshBatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4208DEE914A4079F00D3C511 /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4208DEE614A4079F00D3C511 /* Image.cpp */; };
@@ -1106,12 +1112,6 @@
 		B67EC8F7161DFCA8000B4D12 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B67EC8F4161DFCA8000B4D12 /* Logger.cpp */; };
 		B67EC8F8161DFCA8000B4D12 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = B67EC8F5161DFCA8000B4D12 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B67EC8F9161DFCA8000B4D12 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = B67EC8F5161DFCA8000B4D12 /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD2636E516CF5B7400CFE15F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636DF16CF5B7400CFE15F /* CoreMotion.framework */; };
-		BD2636E616CF5B7400CFE15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E016CF5B7400CFE15F /* Foundation.framework */; };
-		BD2636E716CF5B7400CFE15F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E116CF5B7400CFE15F /* OpenAL.framework */; };
-		BD2636E816CF5B7400CFE15F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E216CF5B7400CFE15F /* OpenGLES.framework */; };
-		BD2636E916CF5B7400CFE15F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E316CF5B7400CFE15F /* QuartzCore.framework */; };
-		BD2636EA16CF5B7400CFE15F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2636E416CF5B7400CFE15F /* UIKit.framework */; };
 		BD26370016CF760400CFE15F /* Matrix.inl in Headers */ = {isa = PBXBuildFile; fileRef = 42CD0DEE147D8FF50000361E /* Matrix.inl */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD26370116CF760400CFE15F /* Vector2.inl in Headers */ = {isa = PBXBuildFile; fileRef = 42CD0E39147D8FF50000361E /* Vector2.inl */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD26370216CF760400CFE15F /* Vector3.inl in Headers */ = {isa = PBXBuildFile; fileRef = 42CD0E3C147D8FF50000361E /* Vector3.inl */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1170,6 +1170,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41BC1D6E18201650000EE04D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D7018201661000EE04D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D721820169F000EE04D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D74182016AA000EE04D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D77182016B9000EE04D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D79182016C0000EE04D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		41BC1D7B182016C7000EE04D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4201818D14A41B18008C3F56 /* MeshBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeshBatch.cpp; path = src/MeshBatch.cpp; sourceTree = SOURCE_ROOT; };
 		4201818E14A41B18008C3F56 /* MeshBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeshBatch.h; path = src/MeshBatch.h; sourceTree = SOURCE_ROOT; };
 		4201818F14A41B18008C3F56 /* MeshBatch.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MeshBatch.inl; path = src/MeshBatch.inl; sourceTree = SOURCE_ROOT; };
@@ -1796,12 +1803,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2636E516CF5B7400CFE15F /* CoreMotion.framework in Frameworks */,
-				BD2636E616CF5B7400CFE15F /* Foundation.framework in Frameworks */,
-				BD2636E716CF5B7400CFE15F /* OpenAL.framework in Frameworks */,
-				BD2636E816CF5B7400CFE15F /* OpenGLES.framework in Frameworks */,
-				BD2636E916CF5B7400CFE15F /* QuartzCore.framework in Frameworks */,
-				BD2636EA16CF5B7400CFE15F /* UIKit.framework in Frameworks */,
+				41BC1D7C182016C7000EE04D /* UIKit.framework in Frameworks */,
+				41BC1D7A182016C0000EE04D /* QuartzCore.framework in Frameworks */,
+				41BC1D78182016B9000EE04D /* OpenGLES.framework in Frameworks */,
+				41BC1D76182016B1000EE04D /* OpenAL.framework in Frameworks */,
+				41BC1D75182016AA000EE04D /* Foundation.framework in Frameworks */,
+				41BC1D731820169F000EE04D /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2433,6 +2440,13 @@
 		42CCD4AF146D811D00353661 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41BC1D7B182016C7000EE04D /* UIKit.framework */,
+				41BC1D79182016C0000EE04D /* QuartzCore.framework */,
+				41BC1D77182016B9000EE04D /* OpenGLES.framework */,
+				41BC1D74182016AA000EE04D /* Foundation.framework */,
+				41BC1D721820169F000EE04D /* CoreMotion.framework */,
+				41BC1D7018201661000EE04D /* OpenAL.framework */,
+				41BC1D6E18201650000EE04D /* CoreAudio.framework */,
 				5B04C5FE14BFE52F00EB0071 /* MacOSX */,
 				5B04C5FD14BFE52300EB0071 /* iOS */,
 			);
@@ -3906,7 +3920,7 @@
 					"../external-deps/oggvorbis/include",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
@@ -3951,7 +3965,7 @@
 					"../external-deps/oggvorbis/include",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = gameplay;

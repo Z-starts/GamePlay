@@ -8,19 +8,7 @@
 # be hosted separately.
 #
 
-prefix=http://www.gameplay3d.org
-
-branchname=$1
-if [[ "$branchname" == "" ]]; then
-  branchname="master"
-fi
-
-filename=gameplay-deps-$branchname
-
-echo Downloading $filename.zip from $prefix...
-curl -# -O $prefix/$filename.zip
-echo Extracting $filename.zip... please standby...
-unzip -q $filename.zip
+unzip -q .zip
 echo Cleaning up...
 rm $filename.zip
 echo Done.
